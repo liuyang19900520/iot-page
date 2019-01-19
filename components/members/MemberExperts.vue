@@ -3,7 +3,7 @@
     <md-card v-for="n in 30" :key="n">
       <md-card-media-cover md-solid>
         <md-card-media md-ratio="4:3">
-          <img src="../assets/card-sky.jpg" alt="Skyscraper">
+          <img src="../../assets/card-sky.jpg" alt="Skyscraper">
         </md-card-media>
         <md-card-area>
           <md-card-header>
@@ -17,7 +17,7 @@
     <md-card>
       <md-card-media-cover md-solid>
         <md-card-media md-ratio="4:3">
-          <img src="../assets/card-sky.jpg" alt="Skyscraper">
+          <img src="../../assets/card-sky.jpg" alt="Skyscraper">
         </md-card-media>
         <md-card-area>
           <md-card-header>
@@ -31,7 +31,7 @@
     <md-card>
       <md-card-media-cover md-solid>
         <md-card-media md-ratio="4:3">
-          <img src="../assets/card-sky.jpg" alt="Skyscraper">
+          <img src="../../assets/card-sky.jpg" alt="Skyscraper">
         </md-card-media>
         <md-card-area>
           <md-card-header>
@@ -45,7 +45,7 @@
     <md-card>
       <md-card-media-cover md-solid>
         <md-card-media md-ratio="4:3">
-          <img src="../assets/card-sky.jpg" alt="Skyscraper">
+          <img src="../../assets/card-sky.jpg" alt="Skyscraper">
         </md-card-media>
         <md-card-area>
           <md-card-header>

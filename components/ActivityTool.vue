@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="activity">
     <div class="title-post">
       <h1>This is the title of Activities</h1>
       <h4 class="title-post-content">  
@@ -9,7 +9,7 @@
         Trump’s order and reassure allies, including Israel.
       </h4>
     </div>
-    <div class="md-layout md-gutter">
+    <div class="md-layout ">
       <md-card class="md-layout-item">
         <md-card-media>
           <img src="../assets/post-1.jpg" alt="People">
@@ -82,9 +82,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.activity{
+  width: 100%
+}
+
 .md-card {
-  width: 320px;
-  margin: 4px;
+  width: 30%;
+  margin: 1%;
   display: inline-block;
   vertical-align: top;
 }

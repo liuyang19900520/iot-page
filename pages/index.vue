@@ -7,15 +7,14 @@
   </section>
 </template>
 <script>
-import HeadTool from '~/components/HeadTool.vue'
-import ActivityTool from '~/components/ActivityTool.vue'
-import MemberTabTool from '~/components/MemberTabTool.vue'
+import HeadTool from "~/components/HeadTool.vue";
+import ActivityTool from "~/components/ActivityTool.vue";
 export default {
   components: {
     HeadTool,
-    ActivityTool,MemberTabTool
+    ActivityTool
   }
-}
+};
 </script>
 <style>
 </style>

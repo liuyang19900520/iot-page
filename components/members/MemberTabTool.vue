@@ -2,32 +2,34 @@
   <div>
     <md-tabs>
       <md-tab id="tab-association" md-label="Association">
-        <MemberAssociationTool/>
+        <MemberAssociation/>
       </md-tab>
 
       <md-tab id="tab-pages" md-label="Companies">
-        <MemberAssociationTool/>
+        <MemberAssociation/>
       </md-tab>
 
       <md-tab id="tab-experts" md-label="Experts">
         <MemberExperts/>
       </md-tab>
 
-      <md-tab id="tab-favorites" md-label="Join us">
-        <MemberAssociationTool/>
+      <md-tab id="tab-join" md-label="Join us">
+        <MemberJoinUs/>
       </md-tab>
     </md-tabs>
   </div>
 </template>
 
 <script>
-import MemberAssociationTool from "~/components/MemberAssociationTool.vue";
-import MemberExperts from "~/components/MemberExperts.vue";
+import MemberAssociation from "~/components/members/MemberAssociation.vue";
+import MemberExperts from "~/components/members/MemberExperts.vue";
+import MemberJoinUs from "~/components/members/MemberJoinUs.vue";
 export default {
   name: "TabContent",
   components: {
-    MemberAssociationTool,
-    MemberExperts
+    MemberAssociation,
+    MemberExperts,
+    MemberJoinUs
   }
 };
 </script>

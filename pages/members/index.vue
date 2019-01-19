@@ -8,7 +8,7 @@
 </template>
 <script>
 import HeadTool from '~/components/HeadTool.vue'
-import MemberTabTool from '~/components/MemberTabTool.vue'
+import MemberTabTool from '~/components/members/MemberTabTool.vue'
 export default {
   components: {
     HeadTool,MemberTabTool
