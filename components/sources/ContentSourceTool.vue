@@ -1,6 +1,6 @@
 <template>
   <div class="source_outside">
-    <div class="source_main_side">1111</div>
+    <div class="source_main_side"></div>
     <div class="source_main_middle">
       <br>
       <h3>最新资料</h3>
@@ -60,7 +60,7 @@
         </md-card-media-cover>
       </md-card>
     </div>
-    <div class="source_main_side">1111</div>
+    <div class="source_main_side"></div>
   </div>
 </template>
 

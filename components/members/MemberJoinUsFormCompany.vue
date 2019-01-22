@@ -11,7 +11,7 @@
         <md-option value="fight-club">AI</md-option>
         <md-option value="godfather">IT</md-option>
         <md-option value="godfather-ii">IOT</md-option>
-        <md-option value="godfather-iii">华人团体</md-option>
+        <md-option value="godfather-iii">IT service</md-option>
       </md-select>
     </md-field>
 

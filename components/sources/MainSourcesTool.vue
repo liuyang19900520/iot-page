@@ -1,27 +1,47 @@
 <template>
   <div class="source_outside">
     <div class="source_main_side"></div>
-    <div class="source_main_middle">
-      <md-app>
+    <div class="source_main_middle background-main">
+      <md-app class="background-main">
         <md-app-drawer md-permanent="clipped" class="source_main_drawer">
           <md-list>
             <md-list-item class="align-item-middle">
-              <md-button class="md-button-front">Inbox</md-button>
+              <md-button class="md-button-front">IOT</md-button>
               <md-icon>keyboard_arrow_right</md-icon>
             </md-list-item>
 
             <md-list-item class="align-item-middle">
-              <md-button class="md-button-front">Sent Mail</md-button>
+              <md-button class="md-button-front">Machine Learning</md-button>
               <md-icon>keyboard_arrow_right</md-icon>
             </md-list-item>
 
             <md-list-item class="align-item-middle">
-              <md-button class="md-button-front">Trash</md-button>
+              <md-button class="md-button-front">AI</md-button>
               <md-icon>keyboard_arrow_right</md-icon>
             </md-list-item>
 
             <md-list-item class="align-item-middle">
-              <md-button class="md-button-front">Spam</md-button>
+              <md-button class="md-button-front">THE Front End</md-button>
+              <md-icon>keyboard_arrow_right</md-icon>
+            </md-list-item>
+
+            <md-list-item class="align-item-middle">
+              <md-button class="md-button-front">JAVA WEB</md-button>
+              <md-icon>keyboard_arrow_right</md-icon>
+            </md-list-item>
+
+            <md-list-item class="align-item-middle">
+              <md-button class="md-button-front">Android</md-button>
+              <md-icon>keyboard_arrow_right</md-icon>
+            </md-list-item>
+
+            <md-list-item class="align-item-middle">
+              <md-button class="md-button-front">IOS</md-button>
+              <md-icon>keyboard_arrow_right</md-icon>
+            </md-list-item>
+
+            <md-list-item class="align-item-middle">
+              <md-button class="md-button-front">Python</md-button>
               <md-icon>keyboard_arrow_right</md-icon>
             </md-list-item>
           </md-list>
@@ -67,6 +87,9 @@ export default {
   justify-content: center; /*水平居中*/
 }
 
+.background-main {
+  background-color: beige;
+}
 .source_main_side {
   width: 8%;
 }
