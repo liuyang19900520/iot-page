@@ -21,7 +21,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
 .center {
   display: flex;
   align-items: flex-start;
@@ -35,5 +35,43 @@ export default {
 }
 .assciation_left {
   width: 75%;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+  .assciation_right {
+    display: none;
+  }
+  .assciation_left {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .assciation_right {
+    display: none;
+  }
+  .assciation_left {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .assciation_right {
+    display: none;
+  }
+  .assciation_left {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .assciation_right {
+    width: 25%;
+    justify-content: flex-start;
+    padding: 2%;
+  }
+  .assciation_left {
+    width: 75%;
+  }
 }
 </style>

@@ -14,7 +14,7 @@
         2019年我们要继续发力，务实再务实，实现AI•IoT生态领域百花齐放！
       </h4>
     </div>
-    <h3 class="title-post-title">最新活动</h3>
+    <h1 class="title-post-title">最新活动</h1>
     <div class="md-layout post-flex">
       <md-card class="md-layout-item">
         <md-card-media>
@@ -95,6 +95,7 @@ export default {
 
 .title-post-content {
   margin: 3%;
+  text-align: justify;
 }
 
 .post-flex {
@@ -111,10 +112,23 @@ export default {
   }
 
   .md-card {
-    width: 98%;
-    margin: 1%;
+    width: 96%;
+    margin: 2%;
     display: inline-block;
     vertical-align: top;
+  }
+
+  .title-post {
+    margin: 5%;
+  }
+
+  .title-post-title {
+    margin-left: 2%;
+  }
+
+  .title-post-content {
+    margin: 2%;
+    text-align: justify;
   }
 }
 
@@ -125,8 +139,8 @@ export default {
   }
 
   .md-card {
-    width: 98%;
-    margin: 1%;
+    width: 96%;
+    margin: 2%;
     display: inline-block;
     vertical-align: top;
   }
@@ -139,8 +153,8 @@ export default {
   }
 
   .md-card {
-    width: 98%;
-    margin: 1%;
+    width: 96%;
+    margin: 2%;
     display: inline-block;
     vertical-align: top;
   }

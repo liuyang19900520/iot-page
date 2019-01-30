@@ -50,3 +50,7 @@ html {
   background-color: #35495e;
 }
 </style>
+
+<style lang="less">
+@import '~vux/src/styles/reset.less';
+</style>

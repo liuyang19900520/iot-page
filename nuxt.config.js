@@ -1,3 +1,6 @@
+const path = require('path')
+const vuxLoader = require('vux-loader')
+
 module.exports = {
   /*
   ** Headers of the page
@@ -25,25 +28,37 @@ module.exports = {
   */
   css: [
     { src: 'vue-material/dist/vue-material.min.css', lang: 'css' },
+    {src: 'vux/src/styles/reset.less'},
+    {src: 'vux/src/styles/1px.less'},
     { src: '~/assets/theme.scss', lang: 'scss' } // include vue-material theme engine
   ],
   plugins: [
-    { src: '~/plugins/vue-material' }
+    { src: '~/plugins/vue-material' },
+    {
+      src: '~/plugins/vux-plugins',
+      ssr: false
+    },
+    {
+      src: '~/plugins/vux-components',
+      ssr: true
+    }
   ],
   build: {
     /*
     ** Run ESLint on save
     */
-    vendor: ['vue-material']
-    // extend (config, { isDev, isClient }) {
-    //   if (isDev && isClient) {
-    //     config.module.rules.push({
-    //       enforce: 'pre',
-    //       test: /\.(js|vue)$/,
-    //       loader: 'eslint-loader',
-    //       exclude: /(node_modules)/
-    //     })
-    //   }
-    // }
+    vendor: ['vue-material'],
+    extend(config, { isDev, isClient }) {
+      const configs = vuxLoader.merge(config, {
+        options: {
+          ssr: true
+        },
+        plugins: ['vux-ui', {
+          name: 'less-theme',
+          path: path.join(__dirname, './static/styles/theme.less')
+        }]
+      })
+      return configs
+    }
   }
 }
