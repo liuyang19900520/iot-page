@@ -66,12 +66,10 @@ export default {
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .assciation_right {
-    width: 25%;
-    justify-content: flex-start;
-    padding: 2%;
+    display: none;
   }
   .assciation_left {
-    width: 75%;
+    width: 100%;
   }
 }
 </style>

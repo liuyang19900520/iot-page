@@ -24,15 +24,12 @@
 </template>
 
 <script>
-
 export default {
   name: "TableBasic"
- 
 };
 </script>
 
 <style>
-
 .assciation_item {
   display: flex;
   flex-direction: row;
@@ -49,5 +46,62 @@ export default {
 .assciation_profile {
   width: 100%;
   margin: 2%;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+  .assciation_item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .assciation_profile {
+    text-align: center;
+  }
+  .assciation_img {
+    width: 80%;
+    margin: 2%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .assciation_item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .assciation_profile {
+    text-align: center;
+  }
+  .assciation_img {
+    width: 80%;
+    margin: 2%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .assciation_img {
+    width: 80%;
+    margin: 2%;
+    text-align: center;
+  }
+  .assciation_item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .assciation_profile {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
 }
 </style>

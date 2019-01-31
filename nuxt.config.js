@@ -3,55 +3,87 @@ const vuxLoader = require('vux-loader')
 
 module.exports = {
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     title: 'iot-page',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' },
-      { name: 'HandheldFriendly', content: 'true' }
+    meta: [{
+        charset: 'utf-8'
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Nuxt.js project'
+      },
+      {
+        name: 'HandheldFriendly',
+        content: 'true'
+      }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,400italic|Material+Icons' }
+    link: [{
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      },
+      {
+        rel: 'stylesheet',
+        href: '//fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,400italic|Material+Icons'
+      }
     ]
   },
 
   /*
-  ** Customize the progress bar color
-  */
-  loading: { color: '#448aff' },
+   ** Customize the progress bar color
+   */
+  loading: {
+    color: '#448aff'
+  },
   /*
-  ** Build configuration
-  */
-  css: [
-    { src: 'vue-material/dist/vue-material.min.css', lang: 'css' },
-    {src: 'vux/src/styles/reset.less'},
-    {src: 'vux/src/styles/1px.less'},
-    { src: '~/assets/theme.scss', lang: 'scss' } // include vue-material theme engine
+   ** Build configuration
+   */
+  css: [{
+      src: 'vue-material/dist/vue-material.min.css',
+      lang: 'css'
+    },
+    {
+      src: 'vux/src/styles/reset.less'
+    },
+    {
+      src: 'vux/src/styles/1px.less'
+    },
+    {
+      src: '~/assets/theme.scss',
+      lang: 'scss'
+    } // include vue-material theme engine
   ],
-  plugins: [
-    { src: '~/plugins/vue-material' },
+  plugins: [{
+      src: '~/plugins/vue-material'
+    },
     {
       src: '~/plugins/vux-plugins',
       ssr: false
     },
     {
       src: '~/plugins/vux-components',
-      ssr: true
+      ssr: false
     }
   ],
   build: {
     /*
-    ** Run ESLint on save
-    */
+     ** Run ESLint on save
+     */
     vendor: ['vue-material'],
-    extend(config, { isDev, isClient }) {
+    extend(config, {
+      isDev,
+      isClient
+    }) {
       const configs = vuxLoader.merge(config, {
         options: {
-          ssr: true
+          ssr: false
         },
         plugins: ['vux-ui', {
           name: 'less-theme',
