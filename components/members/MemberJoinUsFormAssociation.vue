@@ -1,11 +1,11 @@
 <template>
   <div>
-    <md-field>
+    <md-field class="field-sytle">
       <label>协会名称</label>
       <md-input v-model="regular"></md-input>
     </md-field>
 
-    <md-field>
+    <md-field class="field-sytle">
       <label for="movie">协会领域</label>
       <md-select v-model="movie" name="movie" id="movie">
         <md-option value="fight-club">AI</md-option>
@@ -15,26 +15,26 @@
       </md-select>
     </md-field>
 
-    <md-field>
+    <md-field class="field-sytle">
       <label>协会地址</label>
       <md-input v-model="regular"></md-input>
     </md-field>
 
-    <md-field>
+    <md-field class="field-sytle">
       <label>官方网址</label>
       <md-input v-model="regular"></md-input>
     </md-field>
 
-    <md-field>
+    <md-field class="field-sytle">
       <label>联系人</label>
       <md-input v-model="regular"></md-input>
     </md-field>
 
-    <md-field>
+    <md-field class="field-sytle">
       <label>联系人电话</label>
       <md-input v-model="regular"></md-input>
     </md-field>
-    <md-field>
+    <md-field class="field-sytle">
       <label>联系人邮箱</label>
       <md-input v-model="regular"></md-input>
     </md-field>
@@ -59,9 +59,12 @@ export default {
 };
 </script>
 
-<style>
+<style <style lang="scss" scoped>
+
 .midden-button {
   width: 20%;
   margin: 0 auto;
 }
+
+
 </style>

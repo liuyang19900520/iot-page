@@ -4,9 +4,9 @@
       <img src="../../assets/post-1.jpg" alt="People">
     </div>
     <div class="assciation_profile">
-      <h3>Alibaba Group</h3>
+      <h3 class="in_small_px">Alibaba Group</h3>
       <br>
-      <h4>https://www.alibabagroup.com/</h4>
+      <h4 class="in_small_px">https://www.alibabagroup.com/</h4>
       <br>
       <p>
         我们旨在赋能企业改变营销、销售和经营的方式，并提升企业效率。我们为商家、品牌及其他企业提供基本的科技基础设施以及营销平台，
@@ -29,7 +29,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .assciation_item {
   display: flex;
   flex-direction: row;
@@ -58,11 +58,17 @@ export default {
   }
   .assciation_profile {
     text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 5%;
   }
   .assciation_img {
     width: 80%;
     margin: 2%;
     text-align: center;
+  }
+  .in_small_px {
+    margin: 1%;
   }
 }
 
@@ -76,11 +82,17 @@ export default {
   }
   .assciation_profile {
     text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 5%;
   }
   .assciation_img {
     width: 80%;
     margin: 2%;
     text-align: center;
+  }
+  .in_small_px {
+    margin: 1%;
   }
 }
 
@@ -99,9 +111,18 @@ export default {
   }
   .assciation_profile {
     text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 5%;
+  }
+  .in_small_px {
+    margin: 1%;
   }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  
+
+
 }
 </style>
