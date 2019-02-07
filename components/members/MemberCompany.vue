@@ -1,12 +1,8 @@
 <template>
   <div class="center">
     <div class="assciation_left">
-      <member-association-item1/>
-      <member-association-item5/>
-      <member-association-item2/>
-      <member-association-item3/>
-      <member-association-item4/>
-      <member-association-item/>
+      <member-company-item/>
+      <member-company-item1/>
     </div>
     <div class="assciation_right">
       <actitivies-frame/>
@@ -15,22 +11,15 @@
 </template>
 
 <script>
-import MemberAssociationItem from "~/components/members/MemberAssociationItem.vue";
-import MemberAssociationItem1 from "~/components/members/MemberAssociationItem.1.vue";
-import MemberAssociationItem2 from "~/components/members/MemberAssociationItem.2.vue";
-import MemberAssociationItem3 from "~/components/members/MemberAssociationItem.3.vue";
-import MemberAssociationItem4 from "~/components/members/MemberAssociationItem.4.vue";
-import MemberAssociationItem5 from "~/components/members/MemberAssociationItem.5.vue";
+import MemberCompanyItem from "~/components/members/MemberCompanyItem.vue";
+import MemberCompanyItem1 from "~/components/members/MemberCompanyItem.1.vue";
+
 import ActitiviesFrame from "~/components/ActitiviesFrame.vue";
 export default {
   name: "MemberAssociation",
   components: {
-    MemberAssociationItem,
-    MemberAssociationItem1,
-    MemberAssociationItem2,
-    MemberAssociationItem3,
-    MemberAssociationItem4,
-    MemberAssociationItem5,
+    MemberCompanyItem,
+    MemberCompanyItem1,
     ActitiviesFrame
   }
 };

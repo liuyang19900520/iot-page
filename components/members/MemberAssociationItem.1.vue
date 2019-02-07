@@ -1,19 +1,19 @@
 <template>
   <div class="assciation_item">
     <div class="assciation_img">
-      <img src="../../assets/zairizhognguo.png" alt="People">
+      <img src="../../assets/haurenchuangxin.png" alt="People">
     </div>
     <div class="assciation_profile">
-      <h3 class="in_small_px">在日中国科学技术者联盟</h3>
+      <h3 class="in_small_px">日本华人华侨创新协会</h3>
       <br>
-      <h4 class="in_small_px">http://www.npo-ohp.com/acsej/cn/</h4>
+      <h4 class="in_small_px">http://jciahch.org/</h4>
       <br>
       <p>
-       在日中国科学技术者联盟（简称科盟，英文：The Association of Chinese Scientists and Engineers in Japan，简称ＡＣＳＥＪ）
-       是以在日本工作的中国科学技术人员为主的非营利、非政治的独立的群众性团体，以促进和加强在日中国科学技术者之间、
-       在日中国科学技术者与中国和其它国家特别是日本的有关组织、团体及学者之间的合作和交流为目的，以『务实』『架桥』『贡献』为活动宗旨。
+        在中国＂十三五＂创新型国家经济建设时期，立足＂引进消化吸收再创新＂的发展机遇，着眼发达国家的高新科技信息和创新成果，
+        通过各类型交流活动、国际化合作交易平台，汇聚全球华人华侨个人和企业团体的力量，
+        为同仁志士创新创业发展事业架设桥梁，促使创新思维结合高新科技积极推动全球华人华侨各类企业的繁荣发展，共园共享中国梦。
         <a
-          href="http://www.npo-ohp.com/acsej/cn/"
+          href="http://jciahch.org/"
         >查看更多</a>
       </p>
     </div>

@@ -1,19 +1,22 @@
 <template>
   <div class="assciation_item">
     <div class="assciation_img">
-      <img src="../../assets/zairizhognguo.png" alt="People">
+      <img src="../../assets/lab.png" alt="People">
     </div>
     <div class="assciation_profile">
-      <h3 class="in_small_px">在日中国科学技术者联盟</h3>
+      <h3 class="in_small_px">IoT推進ラボ</h3>
       <br>
-      <h4 class="in_small_px">http://www.npo-ohp.com/acsej/cn/</h4>
+      <h4 class="in_small_px">https://iotlab.jp/</h4>
       <br>
       <p>
-       在日中国科学技术者联盟（简称科盟，英文：The Association of Chinese Scientists and Engineers in Japan，简称ＡＣＳＥＪ）
-       是以在日本工作的中国科学技术人员为主的非营利、非政治的独立的群众性团体，以促进和加强在日中国科学技术者之间、
-       在日中国科学技术者与中国和其它国家特别是日本的有关组织、团体及学者之间的合作和交流为目的，以『务实』『架桥』『贡献』为活动宗旨。
+        IoT推進ラボは、IoT推進コンソーシアムの下に設置され、ラボ3原則（成長性・先導性、波及性（オープン性）、社会性）に基づき個別のIoTプロジェクトを
+        発掘・選定し、企業連携・資金・規制の面から徹底的に支援するとともに、
+        大規模社会実装に向けた規制改革・制度形成等の環境整備を行います。
+        IoT推進ラボの運営における業務（イベントの企画・運営業務、ご本人様への連絡、委託元への報告）については、
+        国立研究開発法人新エネルギー・産業技術総合開発機構「IoTを活用した新産業モデル創出基盤整備事業／革新的な産業モデル創出及び推進に関する検討」の委託
+        を受けた一般財団法人日本情報経済社会推進協会（JIPDEC）が実施致します。
         <a
-          href="http://www.npo-ohp.com/acsej/cn/"
+          href="https://iotlab.jp/"
         >查看更多</a>
       </p>
     </div>
@@ -118,8 +121,5 @@ export default {
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  
-
-
 }
 </style>

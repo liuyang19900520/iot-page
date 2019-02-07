@@ -1,17 +1,27 @@
 <template>
   <div>
-    <md-card class="md-card" v-for="n in 10" :key="n">
+    <md-card class="md-card">
       <md-card-media-cover md-solid>
         <md-card-media md-ratio="4:3">
-          <img src="../../assets/card-sky.jpg" alt="Skyscraper">
+          <img src="../../assets/liujin.jpg" alt="Skyscraper">
         </md-card-media>
         <md-card-area>
           <md-card-header>
-            <span class="md-title">张三</span>
-            <span class="md-subhead">
-              张三，xx大学博士，xx领域专家。
-              著有《xxxx》
-            </span>
+            <span class="md-title">刘劲</span>
+            <span class="md-subhead">协会会长。东北大学工学博士</span>
+          </md-card-header>
+        </md-card-area>
+      </md-card-media-cover>
+    </md-card>
+    <md-card class="md-card">
+      <md-card-media-cover md-solid>
+        <md-card-media md-ratio="4:3">
+          <img src="../../assets/qin.jpg" alt="Skyscraper">
+        </md-card-media>
+        <md-card-area>
+          <md-card-header>
+            <span class="md-title">秦中陵</span>
+            <span class="md-subhead">协会运营委员会事务局长。xxx方面专家</span>
           </md-card-header>
         </md-card-area>
       </md-card-media-cover>

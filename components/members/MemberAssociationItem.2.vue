@@ -1,19 +1,20 @@
 <template>
   <div class="assciation_item">
     <div class="assciation_img">
-      <img src="../../assets/zairizhognguo.png" alt="People">
+      <img src="../../assets/japandeeplearning.png" alt="People">
     </div>
     <div class="assciation_profile">
-      <h3 class="in_small_px">在日中国科学技术者联盟</h3>
+      <h3 class="in_small_px">一般社団法人日本ディープラーニング協会</h3>
       <br>
-      <h4 class="in_small_px">http://www.npo-ohp.com/acsej/cn/</h4>
+      <h4 class="in_small_px">https://www.jdla.org/</h4>
       <br>
       <p>
-       在日中国科学技术者联盟（简称科盟，英文：The Association of Chinese Scientists and Engineers in Japan，简称ＡＣＳＥＪ）
-       是以在日本工作的中国科学技术人员为主的非营利、非政治的独立的群众性团体，以促进和加强在日中国科学技术者之间、
-       在日中国科学技术者与中国和其它国家特别是日本的有关组织、团体及学者之间的合作和交流为目的，以『务实』『架桥』『贡献』为活动宗旨。
+        本協会は、ディープラーニングを中心とする技術による日本の産業競争力の向上を目指します。
+        そのため、ディープラーニングを事業の核とする企業および有識者が中心となって、
+        産業活用促進、人材育成、公的機関や産業への提言、国際連携、社会との対話 など、
+        産業の健全な発展のために必要な活動を行っていきます。
         <a
-          href="http://www.npo-ohp.com/acsej/cn/"
+          href="https://www.jdla.org/"
         >查看更多</a>
       </p>
     </div>
@@ -118,8 +119,5 @@ export default {
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  
-
-
 }
 </style>

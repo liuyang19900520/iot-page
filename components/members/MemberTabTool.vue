@@ -25,7 +25,7 @@
       </swiper-item>
       <swiper-item :key="1" class="swiper-slide">
         <div>
-          <MemberAssociation/>
+          <member-company/>
         </div>
       </swiper-item>
       <swiper-item :key="2" class="swiper-slide">
@@ -53,6 +53,7 @@ import {
   SwiperItem
 } from "vux";
 import MemberAssociation from "~/components/members/MemberAssociation.vue";
+import MemberCompany from "~/components/members/MemberCompany.vue";
 import MemberExperts from "~/components/members/MemberExperts.vue";
 import MemberJoinUs from "~/components/members/MemberJoinUs.vue";
 const list = () => ["Association", "Companies", "Experts", "Join us"];
@@ -67,6 +68,7 @@ export default {
     Swiper,
     SwiperItem,
     MemberAssociation,
+    MemberCompany,
     MemberExperts,
     MemberJoinUs
   },

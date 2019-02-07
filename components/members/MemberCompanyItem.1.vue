@@ -1,19 +1,18 @@
 <template>
   <div class="assciation_item">
     <div class="assciation_img">
-      <img src="../../assets/zairizhognguo.png" alt="People">
+      <img src="../../assets/alibaba.png" alt="People">
     </div>
     <div class="assciation_profile">
-      <h3 class="in_small_px">在日中国科学技术者联盟</h3>
+      <h3 class="in_small_px">Alibaba Group</h3>
       <br>
-      <h4 class="in_small_px">http://www.npo-ohp.com/acsej/cn/</h4>
+      <h4 class="in_small_px">https://www.alibabagroup.com/cn/global/home</h4>
       <br>
       <p>
-       在日中国科学技术者联盟（简称科盟，英文：The Association of Chinese Scientists and Engineers in Japan，简称ＡＣＳＥＪ）
-       是以在日本工作的中国科学技术人员为主的非营利、非政治的独立的群众性团体，以促进和加强在日中国科学技术者之间、
-       在日中国科学技术者与中国和其它国家特别是日本的有关组织、团体及学者之间的合作和交流为目的，以『务实』『架桥』『贡献』为活动宗旨。
+        我们旨在赋能企业改变营销、销售和经营的方式，并提升企业效率。
+        我们为商家、品牌及其他企业提供基本的科技基础设施以及营销平台，让其可借助新技术的力量与用户和客户互动，以更具效率的形式开展运营。
         <a
-          href="http://www.npo-ohp.com/acsej/cn/"
+          href="https://www.alibabagroup.com/cn/global/home"
         >查看更多</a>
       </p>
     </div>
@@ -118,8 +117,5 @@ export default {
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  
-
-
 }
 </style>

@@ -18,7 +18,7 @@
     <div class="md-layout post-flex">
       <md-card class="md-layout-item">
         <md-card-media>
-          <img src="../assets/post-1.jpg" alt="People">
+          <img src="../assets/activity_20190115.jpg" alt="People" class="img-style">
         </md-card-media>
 
         <md-card-header>
@@ -34,7 +34,7 @@
 
       <md-card class="md-layout-item">
         <md-card-media>
-          <img src="../assets/post-1.jpg" alt="People">
+          <img src="../assets/activity_20181111.jpg" alt="People" class="img-style">
         </md-card-media>
 
         <md-card-header>
@@ -49,7 +49,7 @@
       </md-card>
       <md-card class="md-layout-item">
         <md-card-media>
-          <img src="../assets/post-1.jpg" alt="People">
+          <img src="../assets/activity_20180808.jpg" alt="People" class="img-style">
         </md-card-media>
 
         <md-card-header>
@@ -85,6 +85,14 @@ export default {
   vertical-align: top;
 }
 
+.md-card-media {
+  height: 55%;
+}
+
+.img-style {
+  height: 100%;
+}
+
 .title-post {
   margin: 5%;
 }
@@ -108,7 +116,6 @@ export default {
 @media only screen and (min-width: 240px) and (max-width: 320px) {
   .post-flex {
     display: block;
-    background-color: red;
   }
 
   .md-card {
@@ -130,12 +137,13 @@ export default {
     margin: 2%;
     text-align: justify;
   }
+
+
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   .post-flex {
     display: block;
-    background-color: orange;
   }
 
   .md-card {
@@ -144,12 +152,14 @@ export default {
     display: inline-block;
     vertical-align: top;
   }
+
+
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .post-flex {
     display: block;
-    background-color: yellow;
+
   }
 
   .md-card {
@@ -158,12 +168,14 @@ export default {
     display: inline-block;
     vertical-align: top;
   }
+
+ 
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .post-flex {
     display: block;
-    background-color: green;
+
   }
 
   .md-card {
@@ -172,5 +184,7 @@ export default {
     display: inline-block;
     vertical-align: top;
   }
+
+  
 }
 </style>

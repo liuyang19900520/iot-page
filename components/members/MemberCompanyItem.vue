@@ -1,19 +1,19 @@
 <template>
   <div class="assciation_item">
     <div class="assciation_img">
-      <img src="../../assets/zairizhognguo.png" alt="People">
+      <img src="../../assets/huajin.png" alt="People">
     </div>
     <div class="assciation_profile">
-      <h3 class="in_small_px">在日中国科学技术者联盟</h3>
+      <h3 class="in_small_px">華晋グローバル株式会社</h3>
       <br>
-      <h4 class="in_small_px">http://www.npo-ohp.com/acsej/cn/</h4>
+      <h4 class="in_small_px">http://www.ks-global.co.jp/</h4>
       <br>
       <p>
-       在日中国科学技术者联盟（简称科盟，英文：The Association of Chinese Scientists and Engineers in Japan，简称ＡＣＳＥＪ）
-       是以在日本工作的中国科学技术人员为主的非营利、非政治的独立的群众性团体，以促进和加强在日中国科学技术者之间、
-       在日中国科学技术者与中国和其它国家特别是日本的有关组织、团体及学者之间的合作和交流为目的，以『务实』『架桥』『贡献』为活动宗旨。
+        華晋は、人と情報を結ぶコーディネイターとして先進のテクノロジーの構築、提案、納入、保守を目的の専門会社として事業展開しております。
+        多様化するニーズに即応し、高度な技術とノウハウを提供することにより、お客様のご満足を得られるよう日々努力を重ねております。
+        相変わらず「アプリケーションソフトウェア開発とサービスの提供を核心業務とし、国内、国際市場を同時開拓」する市場戦略を主張してきました。
         <a
-          href="http://www.npo-ohp.com/acsej/cn/"
+          href="http://www.ks-global.co.jp/"
         >查看更多</a>
       </p>
     </div>
@@ -118,8 +118,5 @@ export default {
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  
-
-
 }
 </style>

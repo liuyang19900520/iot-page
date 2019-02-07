@@ -2,9 +2,18 @@
   <section class="container">
     <div>
       <HeadTool/>
-      <MainSourcesTool/>
+      <!-- <MainSourcesTool/>
       <content-source-tool/>
-      <content-source-tech/>
+      <content-source-tech/>-->
+      <br>
+      <br>
+      <br>
+      <md-empty-state
+        class="building-style"
+        md-icon="access_time"
+        md-label="您所浏览的功能建设中"
+        md-description="Anything you snooze will go here until it's time for it to return to the inbox."
+      ></md-empty-state>
     </div>
   </section>
 </template>
@@ -22,5 +31,10 @@ export default {
   }
 };
 </script>
-<style>
+ <style lang="scss" scoped>
+.building-style {
+  width: 100%;
+}
 </style>
+
+

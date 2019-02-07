@@ -1,19 +1,21 @@
 <template>
   <div class="assciation_item">
     <div class="assciation_img">
-      <img src="../../assets/zairizhognguo.png" alt="People">
+      <img src="../../assets/zhongguancun.png" alt="People">
     </div>
     <div class="assciation_profile">
-      <h3 class="in_small_px">在日中国科学技术者联盟</h3>
+      <h3 class="in_small_px">中关村物联网产业联盟</h3>
       <br>
-      <h4 class="in_small_px">http://www.npo-ohp.com/acsej/cn/</h4>
+      <h4 class="in_small_px">http://www.ziota.org/</h4>
       <br>
       <p>
-       在日中国科学技术者联盟（简称科盟，英文：The Association of Chinese Scientists and Engineers in Japan，简称ＡＣＳＥＪ）
-       是以在日本工作的中国科学技术人员为主的非营利、非政治的独立的群众性团体，以促进和加强在日中国科学技术者之间、
-       在日中国科学技术者与中国和其它国家特别是日本的有关组织、团体及学者之间的合作和交流为目的，以『务实』『架桥』『贡献』为活动宗旨。
+        中关村物联网产业联盟成立于2009年11月1日，是中国第一家物联网产业联盟。由中关村在物联网产业链上下游具有优势的单位共同发起。
+        目前，联盟已涵盖了物联网产业链重要核心单位近200家，服务于物联网、智慧城市相关领域企业近2000家，形成了产、学、研、用开放式的合作机制。
+        联盟致力于推动产业发展、服务企业、服务政府、促进合作四大方面。通过搭建关键技术及公共服务平台，推动物联网技术、产业链和市场应用的协同发展；
+        通过协调企业间合作关系、企业与政府间的关系、产业与市场的关系，更好的服务会员，协同创新；在配合政府部门产业调研与政策研究、
+        组织实施重大项目基础之上，承接政府部门的产业促进服务任务；协调与相关联盟、协会、机构的关系，实现协同创新和跨界创新的目的。
         <a
-          href="http://www.npo-ohp.com/acsej/cn/"
+          href="http://www.ziota.org/"
         >查看更多</a>
       </p>
     </div>
@@ -118,8 +120,5 @@ export default {
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  
-
-
 }
 </style>

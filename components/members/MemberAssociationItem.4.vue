@@ -1,19 +1,21 @@
 <template>
   <div class="assciation_item">
     <div class="assciation_img">
-      <img src="../../assets/zairizhognguo.png" alt="People">
+      <img src="../../assets/smartiot.png" alt="People">
     </div>
     <div class="assciation_profile">
-      <h3 class="in_small_px">在日中国科学技术者联盟</h3>
+      <h3 class="in_small_px">スマートIoT推進フォーラム</h3>
       <br>
-      <h4 class="in_small_px">http://www.npo-ohp.com/acsej/cn/</h4>
+      <h4 class="in_small_px">https://smartiot-forum.jp/</h4>
       <br>
       <p>
-       在日中国科学技术者联盟（简称科盟，英文：The Association of Chinese Scientists and Engineers in Japan，简称ＡＣＳＥＪ）
-       是以在日本工作的中国科学技术人员为主的非营利、非政治的独立的群众性团体，以促进和加强在日中国科学技术者之间、
-       在日中国科学技术者与中国和其它国家特别是日本的有关组织、团体及学者之间的合作和交流为目的，以『务实』『架桥』『贡献』为活动宗旨。
+        IoTはさまざまな目的で導入され、そのサービス内容、取扱いデータ、創出価値は多様です。
+        また、導入や事業化において技術開発が必要であったり、想定通りのデータが収集できない、導入メリットの理解に時間がかかるなど、
+        思わぬところで苦労したりします。
+        スマートIoT推進フォーラムでは、その活動の一環として先進事例を取材するとともに、会員の皆様からも事例を募集し、
+        紹介しております。さまざまな事例をご覧いただくことで、気付きの誘発や新たな知見の獲得などにつながるのではと期待しております。この事例紹介が、IoTの事例集としてIoTビジネスの推進、会員相互の交流促進などに役立てば幸いです。
         <a
-          href="http://www.npo-ohp.com/acsej/cn/"
+          href="https://smartiot-forum.jp/"
         >查看更多</a>
       </p>
     </div>
@@ -118,8 +120,5 @@ export default {
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  
-
-
 }
 </style>
