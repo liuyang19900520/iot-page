@@ -13,8 +13,9 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0",
+    "nuxt": "^2.10.0",
     "vue-material": "latest",
+    "vuetify": "^2.1.1",
     "vux": "^2.9.2"
   },
   "devDependencies": {
