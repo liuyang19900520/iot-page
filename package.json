@@ -15,8 +15,7 @@
   "dependencies": {
     "nuxt": "^2.10.0",
     "vue-material": "latest",
-    "vuetify": "^2.1.1",
-    "vux": "^2.9.2"
+    "vuetify": "^2.1.1"
   },
   "devDependencies": {
     "babel-preset-env": "^1.6.1",

@@ -1,5 +1,4 @@
 const path = require('path')
-const vuxLoader = require('vux-loader')
 
 module.exports = {
   /*
@@ -62,14 +61,6 @@ module.exports = {
   ],
   plugins: [{
       src: '~/plugins/vue-material'
-    },
-    {
-      src: '~/plugins/vux-plugins',
-      ssr: false
-    },
-    {
-      src: '~/plugins/vux-components',
-      ssr: false
     }
   ],
   build: {
@@ -77,20 +68,6 @@ module.exports = {
      ** Run ESLint on save
      */
     vendor: ['vue-material'],
-    extend(config, {
-      isDev,
-      isClient
-    }) {
-      const configs = vuxLoader.merge(config, {
-        options: {
-          ssr: false
-        },
-        plugins: ['vux-ui', {
-          name: 'less-theme',
-          path: path.join(__dirname, './static/styles/theme.less')
-        }]
-      })
-      return configs
-    }
+    
   }
 }

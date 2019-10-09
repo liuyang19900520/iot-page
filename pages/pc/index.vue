@@ -1,7 +1,8 @@
 <template>
   <section class="container">
     <div>
-      首页
+      <HeadTool/>
+      <ActivityTool/>
     </div>
   </section>
 </template>
