@@ -49,18 +49,14 @@ module.exports = {
       lang: 'css'
     },
     {
-      src: 'vux/src/styles/reset.less'
-    },
-    {
-      src: 'vux/src/styles/1px.less'
-    },
-    {
       src: '~/assets/theme.scss',
       lang: 'scss'
     } // include vue-material theme engine
   ],
   plugins: [{
       src: '~/plugins/vue-material'
+    },{
+      src: '~/plugins/route'
     }
   ],
   build: {
@@ -69,5 +65,8 @@ module.exports = {
      */
     vendor: ['vue-material'],
     
+  },
+  router: {
+    middleware: ["device"],
   }
 }
