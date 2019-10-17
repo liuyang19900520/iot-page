@@ -13,7 +13,8 @@ export default {
   components: {
     HeadTool,
     ActivityTool
-  }
+  },
+  layout: 'default'
 };
 </script>
 <style>

@@ -49,15 +49,18 @@ module.exports = {
       lang: 'css'
     },
     {
+      src: 'vuetify/dist/vuetify.min.css',
+      lang: 'css'
+    },
+    {
       src: '~/assets/theme.scss',
       lang: 'scss'
     } // include vue-material theme engine
   ],
   plugins: [{
       src: '~/plugins/vue-material'
-    },{
-      src: '~/plugins/route'
-    }
+    },
+    '@plugins/vuetify'
   ],
   build: {
     /*
@@ -66,7 +69,5 @@ module.exports = {
     vendor: ['vue-material'],
     
   },
-  router: {
-    middleware: ["device"],
-  }
+  
 }

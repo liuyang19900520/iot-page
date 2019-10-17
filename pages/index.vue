@@ -9,10 +9,7 @@
 import HeadTool from "~/components/HeadTool.vue";
 import ActivityTool from "~/components/ActivityTool.vue";
 export default {
-  components: {
-    HeadTool,
-    ActivityTool
-  }
+  middleware: 'device'
 };
 </script>
 <style>

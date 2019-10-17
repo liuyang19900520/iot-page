@@ -13,15 +13,17 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "cssnano": "^4.1.10",
+    "less": "^3.10.3",
     "nuxt": "^2.10.0",
     "vue-material": "latest",
-    "vuetify": "^2.1.1"
+    "vuetify": "^2.1.4"
   },
   "devDependencies": {
+    "@mdi/font": "^4.5.95",
     "babel-preset-env": "^1.6.1",
-    "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6",
     "less-loader": "^4.0.6",
-    "vux-loader": "^1.2.1"
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6"
   }
 }

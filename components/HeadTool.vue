@@ -57,14 +57,14 @@ export default {
   },
   methods: {
     toSummary() {
-      this.$router.push({ path: "/" });
+      this.$router.push({ path: "/pc" });
     },
     toMembers() {
-      this.$router.push({ path: "/members" });
+      this.$router.push({ path: "/pc/members" });
       this.pathPrimary();
     },
     toSources() {
-      this.$router.push({ path: "/sources" });
+      this.$router.push({ path: "/pc/sources" });
       this.pathPrimary();
     },
 

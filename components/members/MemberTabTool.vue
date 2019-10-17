@@ -43,15 +43,7 @@
 </template>
 
 <script>
-import {
-  Tab,
-  TabItem,
-  Sticky,
-  Divider,
-  XButton,
-  Swiper,
-  SwiperItem
-} from "vux";
+
 import MemberAssociation from "~/components/members/MemberAssociation.vue";
 import MemberCompany from "~/components/members/MemberCompany.vue";
 import MemberExperts from "~/components/members/MemberExperts.vue";
@@ -84,49 +76,6 @@ export default {
     };
   },
   methods: {
-    switchTabItem(index) {
-      console.log("on-before-index-change", index);
-      this.$vux.loading.show({
-        text: "loading"
-      });
-      setTimeout(() => {
-        this.$vux.loading.hide();
-        this.index01 = index;
-      }, 1000);
-    },
-    onItemClick(index) {
-      console.log("on item click:", index);
-    },
-    addTab() {
-      if (this.list2.length < 5) {
-        this.list2 = list().slice(0, this.list2.length + 1);
-      }
-    },
-    removeTab() {
-      if (this.list2.length > 1) {
-        this.list2 = list().slice(0, this.list2.length - 1);
-      }
-    },
-    next() {
-      if (this.index === this.list2.length - 1) {
-        this.index = 0;
-      } else {
-        ++this.index;
-      }
-    },
-    prev() {
-      if (this.index === 0) {
-        this.index = this.list2.length - 1;
-      } else {
-        --this.index;
-      }
-    },
-    changeFixed(clientHeight, headToolHeight, tabToolHeight) {
-      //动态修改样式
-      console.log(clientHeight);
-      this.$refs.homePage.height =
-        clientHeight - headToolHeight - tabToolHeight + "px";
-    }
   },
   mounted() {
     // 获取浏览器可视区域高度
@@ -160,8 +109,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import "~vux/src/styles/1px.less";
-@import "~vux/src/styles/center.less";
+
 
 .active-6-1 {
   color: rgb(252, 55, 140) !important;
