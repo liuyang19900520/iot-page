@@ -18,7 +18,7 @@
   </section>
 </template>
 <script>
-import HeadTool from "~/components/HeadTool.vue";
+import HeadTool from "~/components/pc/HeadTool.vue";
 import MainSourcesTool from "~/components/sources/MainSourcesTool.vue";
 import ContentSourceTool from "~/components/sources/ContentSourceTool.vue";
 import ContentSourceTech from "~/components/sources/ContentSourceTech.vue";

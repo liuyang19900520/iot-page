@@ -7,7 +7,7 @@
   </section>
 </template>
 <script>
-import HeadTool from '~/components/HeadTool.vue'
+import HeadTool from '~/components/pc/HeadTool.vue'
 import MemberTabTool from '~/components/members/MemberTabTool.vue'
 export default {
   components: {
