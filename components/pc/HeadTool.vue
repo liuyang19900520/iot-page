@@ -1,7 +1,7 @@
 <template>
   <div id="idHeadTool">
     <md-toolbar md-elevation="1" class="headbar-style">
-      <img class="logo" src="../../assets/logo.jpg">
+      <img class="logo" src="../../assets/logo.jpg" />
       <h1 class="titlelogo" style="flex: 1">Japan-China AI·IOT Industry Alliance (JCAIoT)</h1>
 
       <div>
@@ -109,9 +109,9 @@ export default {
   display: none;
 }
 
-  .headbar-style {
-    justify-content: space-between;
-  }
+#idHeadTool{
+  width:100%;
+}
 
 </style>
 

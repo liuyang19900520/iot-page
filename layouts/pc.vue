@@ -6,6 +6,10 @@
 
 <style>
 
+.html{
+width:100%;
+}
+
 </style>
 
 

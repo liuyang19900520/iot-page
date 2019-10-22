@@ -51,23 +51,17 @@ module.exports = {
     {
       src: 'vuetify/dist/vuetify.min.css',
       lang: 'css'
-    },
-    {
-      src: '~/assets/theme.scss',
-      lang: 'scss'
-    } // include vue-material theme engine
+    }
   ],
-  plugins: [{
-      src: '~/plugins/vue-material'
-    },
-    '@plugins/vuetify'
+  plugins: [
+    '~/plugins/vue-material.js', '~/plugins/vuetify.js'
   ],
   build: {
     /*
      ** Run ESLint on save
      */
     vendor: ['vue-material'],
-    
+
   },
-  
+
 }

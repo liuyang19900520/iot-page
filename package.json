@@ -22,8 +22,10 @@
   "devDependencies": {
     "@mdi/font": "^4.5.95",
     "babel-preset-env": "^1.6.1",
+    "deepmerge": "^4.2.0",
+    "fibers": "^4.0.1",
     "less-loader": "^4.0.6",
-    "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6"
+    "sass": "^1.23.0",
+    "sass-loader": "^8.0.0"
   }
 }
