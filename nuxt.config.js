@@ -1,5 +1,3 @@
-const path = require('path')
-
 module.exports = {
   /*
    ** Headers of the page
@@ -35,6 +33,14 @@ module.exports = {
     ]
   },
 
+  buildModules: [
+    ['@nuxtjs/vuetify']
+  ],
+  // Vuetify options
+  vuetify: {
+    optionsPath: '~/plugins/vuetify.js'
+  },
+
   /*
    ** Customize the progress bar color
    */
@@ -54,7 +60,7 @@ module.exports = {
     }
   ],
   plugins: [
-    '~/plugins/vue-material.js', '~/plugins/vuetify.js'
+    '~/plugins/vue-material.js'
   ],
   build: {
     /*
@@ -62,6 +68,6 @@ module.exports = {
      */
     vendor: ['vue-material'],
 
-  },
+  }
 
 }

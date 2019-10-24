@@ -26,7 +26,6 @@
 
     <v-app-bar
       app
-      color="indigo"
       dark
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
@@ -77,7 +76,7 @@
       </v-container>
     </v-content>
     <v-footer
-      color="indigo"
+      
       app
     >
       <span class="white--text">&copy; 2019</span>
