@@ -8,7 +8,7 @@
         <v-btn text>{{ $t("home") }}</v-btn>
         <v-btn text>{{ $t("member") }}</v-btn>
         <v-btn text>{{ $t("source") }}</v-btn>
-        <v-btn text>{{ $t("language") }}<v-icon>mdi-xbox-controller</v-icon></v-btn>
+        <v-btn text>{{ $t("language") }}<v-icon>mdi-chevron-down</v-icon></v-btn>
       </v-toolbar-items>
     </v-app-bar>
 
