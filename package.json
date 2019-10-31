@@ -14,8 +14,11 @@
   },
   "dependencies": {
     "cssnano": "^4.1.10",
+    "get-cookie": "0.0.4",
+    "js-cookie": "^2.2.1",
     "less": "^3.10.3",
     "nuxt": "^2.10.0",
+    "vue-cookies": "^1.5.13",
     "vue-material": "latest"
   },
   "devDependencies": {

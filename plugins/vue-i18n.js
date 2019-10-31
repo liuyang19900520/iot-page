@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
-
 Vue.use(VueI18n);
-
 
 export default ({
   app
@@ -10,9 +8,9 @@ export default ({
   app.i18n = new VueI18n({
     fallbackLocale: 'en',
     messages: {
-      zh: require('~/static/i18n/app-zh.json'),
-      en: require('~/static/i18n/app-en.json'),
-      jp: require('~/static/i18n/app-jp.json')
+      zh: require('~/static/lang/zh/app.json'),
+      en: require('~/static/lang/en/app.json'),
+      jp: require('~/static/lang/jp/app.json')
     }
   });
 }

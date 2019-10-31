@@ -6,9 +6,22 @@
 
       <v-toolbar-items>
         <v-btn text>{{ $t("home") }}</v-btn>
-        <v-btn text>{{ $t("member") }}</v-btn>
-        <v-btn text>{{ $t("source") }}</v-btn>
-        <v-btn text>{{ $t("language") }}<v-icon>mdi-chevron-down</v-icon></v-btn>
+        <v-btn text>{{ $t("members") }}</v-btn>
+        <v-btn text>{{ $t("sources") }}</v-btn>
+        <v-btn text>
+          {{ $t("language") }}
+          <v-icon>mdi-expand-more</v-icon>
+        </v-btn>
+        <v-menu>
+          <template v-slot:activator="{ on }">
+            <v-btn class="v-btn--flat" v-on="on">Dropdown</v-btn>
+          </template>
+          <v-list>
+            <v-list-item v-for="(item, index) in items" :key="index" @click="handleSetLanguage(index)">
+              <v-list-item-title>{{ item.title }}</v-list-item-title>
+            </v-list-item>
+          </v-list>
+        </v-menu>
       </v-toolbar-items>
     </v-app-bar>
 
@@ -27,7 +40,32 @@ export default {
     source: String
   },
   data: () => ({
-    drawer: null
-  })
+    drawer: null,
+    items: [{ title: "English" }, { title: "日本語" }, { title: "简体中文" }]
+  }),
+  methods: {
+    handleSetLanguage(index) {
+      var lang;
+      switch (index) {
+        case 0:
+          lang = "en";
+          break;
+
+        case 1:
+          lang = "jp";
+          break;
+
+        case 2:
+          lang = "zh";
+      }
+
+      console.log(lang);
+      // 切换
+      this.$i18n.locale = lang;
+      // 结合vuex （vuex的mutations方法结合了cookie）
+      this.$store.dispatch("setLanguage", lang);
+   
+    }
+  }
 };
 </script>

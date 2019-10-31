@@ -60,7 +60,7 @@ module.exports = {
     }
   ],
   plugins: [
-    '~/plugins/vue-material.js','~/plugins/vue-i18n.js'
+    '~/plugins/vue-material.js','~/plugins/vue-i18n.js','~/plugins/nuxt-client-init.client.js'
   ],
   build: {
     /*
