@@ -1,0 +1,19 @@
+<template>
+  <section class="container">
+    <div>
+      <HeadTool/>
+      <MemberTabTool/>
+    </div>
+  </section>
+</template>
+<script>
+import HeadTool from '~/components/pc/HeadTool.vue'
+import MemberTabTool from '~/components/members/MemberTabTool.vue'
+export default {
+  components: {
+    HeadTool,MemberTabTool
+  }
+}
+</script>
+<style>
+</style>

@@ -8,16 +8,17 @@
         <v-btn text>{{ $t("home") }}</v-btn>
         <v-btn text>{{ $t("members") }}</v-btn>
         <v-btn text>{{ $t("sources") }}</v-btn>
-        <v-btn text>
-          {{ $t("language") }}
-          <v-icon>mdi-expand-more</v-icon>
-        </v-btn>
+
         <v-menu>
           <template v-slot:activator="{ on }">
-            <v-btn class="v-btn--flat" v-on="on">Dropdown</v-btn>
+            <v-btn v-on="on" class="v-btn--flat,v-btn--contained--out">{{ $t("language") }}<v-icon>mdi-menu-down</v-icon></v-btn>
           </template>
           <v-list>
-            <v-list-item v-for="(item, index) in items" :key="index" @click="handleSetLanguage(index)">
+            <v-list-item
+              v-for="(item, index) in items"
+              :key="index"
+              @click="handleSetLanguage(index)"
+            >
               <v-list-item-title>{{ item.title }}</v-list-item-title>
             </v-list-item>
           </v-list>
@@ -48,24 +49,32 @@ export default {
       var lang;
       switch (index) {
         case 0:
-          lang = "en";
+          lang = "en-US";
           break;
 
         case 1:
-          lang = "jp";
+          lang = "ja-JP";
           break;
 
         case 2:
-          lang = "zh";
+          lang = "zh-CN";
       }
 
       console.log(lang);
       // 切换
       this.$i18n.locale = lang;
-      // 结合vuex （vuex的mutations方法结合了cookie）
-      this.$store.dispatch("setLanguage", lang);
-   
+      location.href = this.$utils.url.replaceParam(this.$router.history.current.path, 'lang', lang);
+      
     }
   }
 };
 </script>
+
+
+
+<style scoped>
+.v-btn--contained--out{
+  box-shadow:none !important;
+  background: #424242 !important;
+}
+</style>

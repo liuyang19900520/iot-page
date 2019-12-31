@@ -60,8 +60,14 @@ module.exports = {
     }
   ],
   plugins: [
-    '~/plugins/vue-material.js','~/plugins/vue-i18n.js','~/plugins/nuxt-client-init.client.js'
+    '~/plugins/vue-material.js','~/plugins/vue-i18n.js'
   ],
+  generate: {
+    routes: ['/pc', '/pc/about', '/pc/zh-CN', '/pc/zh-CN/about','/sp', '/sp/about', '/sp/zh-CN', '/sp/zh-CN/about']
+  },
+  router: {              // customize nuxt.js router (vue-router).
+     middleware: ['device','i18n' ]  // middleware all pages of the application
+  },
   build: {
     /*
      ** Run ESLint on save
