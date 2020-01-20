@@ -3,7 +3,7 @@
     <v-app-bar app dark>
       <v-toolbar-title>{{ $t("title") }}</v-toolbar-title>
       <v-spacer></v-spacer>
-      
+
       <v-toolbar-items>
         <nuxt-link to="/">
           <v-btn text>{{ $t("home") }}</v-btn>
@@ -11,10 +11,9 @@
 
         <v-btn text>{{ $t("members") }}</v-btn>
         <v-btn text>{{ $t("sources") }}</v-btn>
-        <nuxt-link to="{ path: '/pc/:lang/about' }">
+        <nuxt-link to="/pc/zh-CN/about/">
           <v-btn text>{{ $t("about") }}</v-btn>
         </nuxt-link>
-
         <v-menu>
           <template v-slot:activator="{ on }">
             <v-btn v-on="on" class="v-btn--flat,v-btn--contained--out">
