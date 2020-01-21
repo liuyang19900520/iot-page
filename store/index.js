@@ -1,18 +1,7 @@
-// export const state = () => ({
-//   locales: ['en-US','ja-JP', 'zh-CN'],
-//   locale: 'en-US'
-// })
-
-// export const mutations = {
-//   SET_LANG(state, locale) {
-//     if (state.locales.indexOf(locale) !== -1) {
-//       state.locale = locale
-//     }
-//   }
-// }
-
 export const state = () => ({
-  visits: []
+  visits: [],
+  locales: ['en', 'fr'],
+  locale: 'en'
 })
 
 export const mutations = {
@@ -21,5 +10,10 @@ export const mutations = {
       path,
       date: new Date().toJSON()
     })
+  },
+  SET_LANG(state, locale) {
+    if (state.locales.includes(locale)) {
+      state.locale = locale
+    }
   }
 }
