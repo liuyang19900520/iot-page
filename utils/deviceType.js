@@ -86,7 +86,6 @@ function isWechat(UA) {
           type: "android",
         };
       }
-  
       return {
         type: "mobile",
       };
