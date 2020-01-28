@@ -14,7 +14,9 @@ export default function (context) {
   if (context.deviceType.type === "pc") {
     // context.redirect(301, pcOrigin + context.route.fullPath);
   } else {
-    if (!context.route.fullPath.startsWith('/mobile'))
+    if (!context.route.fullPath.startsWith('/mobile')) {
       context.redirect(301, mobileOrigin + context.route.fullPath);
+    }
+
   }
 }
