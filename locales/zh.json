@@ -1,0 +1,17 @@
+{
+  "links": {
+    "home": "首页",
+    "about": "关于",
+    "english": "英语",
+    "french": "法语",
+    "chinese":"汉语"
+  },
+  "home": {
+    "title": "标题",
+    "introduction": "简单的介绍"
+  },
+  "about": {
+    "title": "关于",
+    "introduction": "关于的介绍"
+  }
+}

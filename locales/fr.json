@@ -3,7 +3,8 @@
     "home": "Accueil",
     "about": "À propos",
     "english": "Version Anglaise",
-    "french": "Version Française"
+    "french": "Version Française",
+    "chinese":"Version Chinese"
   },
   "home": {
     "title": "Bienvenue",

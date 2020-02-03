@@ -1,6 +1,6 @@
 export const state = () => ({
   visits: [],
-  locales: ['en', 'fr'],
+  locales: ['en', 'fr','zh'],
   locale: 'en'
 })
 

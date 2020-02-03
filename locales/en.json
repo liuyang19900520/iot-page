@@ -3,7 +3,8 @@
     "home": "Home",
     "about": "About",
     "english": "English version",
-    "french": "French version"
+    "french": "French version",
+    "chinese":"Chinese version"
   },
   "home": {
     "title": "Welcome",
